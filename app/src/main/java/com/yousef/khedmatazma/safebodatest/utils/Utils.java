@@ -18,15 +18,19 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 @SuppressLint("SimpleDateFormat")
 public class Utils {
-    public static APIs requestApiDefault() {
+    public static APIs requestApiDefault(Boolean isTokenAPI, String token) {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder().connectTimeout(90, TimeUnit.SECONDS)
                 .writeTimeout(90, TimeUnit.SECONDS)
                 .readTimeout(90, TimeUnit.SECONDS)
                 .addInterceptor(chain -> {
-                    Request request = chain.request().newBuilder().addHeader("Authorization", "Bearer bf68r97armj5bffvn94xd5rs")
-                            .addHeader("Accept" , "application/json").build();
+                    Request request;
+                    if (isTokenAPI)
+                        request = chain.request().newBuilder().build();
+                    else
+                        request = chain.request().newBuilder().addHeader("Accept" , "application/json")
+                                .addHeader("Authorization", "Bearer " + token).build();
                     return chain.proceed(request);
                 })
                 .addInterceptor(interceptor)

@@ -5,12 +5,34 @@ import android.content.Context;
 import com.yousef.khedmatazma.safebodatest.model.AirportLatLongPOJO;
 import com.yousef.khedmatazma.safebodatest.model.AirportsPOJO;
 import com.yousef.khedmatazma.safebodatest.model.LuftSchedulesPOJO;
+import com.yousef.khedmatazma.safebodatest.model.TokenPOJO;
+
 import org.greenrobot.eventbus.EventBus;
 import retrofit2.Call;
 import retrofit2.Response;
 
 @SuppressLint("NewApi")
 public class Events {
+    public static class RequestAccessToken {
+        public RequestAccessToken(final Context mContext, Call<TokenPOJO> call) {
+            new ServerRequest<TokenPOJO>(mContext, call) {
+                @Override
+                public void onCompletion(Response<TokenPOJO> response) {
+                    EventBus.getDefault().post(new GetAccessToken(response.body()));
+                }
+            };
+        }
+    }
+    public static class GetAccessToken {
+        TokenPOJO data;
+        GetAccessToken(TokenPOJO data) {
+            this.data = data;
+        }
+        public TokenPOJO getData() {
+            return data;
+        }
+    }
+
     public static class RequestLuftSchedules {
         public RequestLuftSchedules(final Context mContext, Call<LuftSchedulesPOJO> call) {
             new ServerRequest<LuftSchedulesPOJO>(mContext, call) {
