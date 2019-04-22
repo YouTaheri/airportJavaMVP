@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:context=".view.MapActivity"/>
+        tools:context="com.yousef.airport.airport_java_mvp.view.MapActivity"/>
     <Button
         android:id="@+id/btBack"
         style="@style/defaultButton_map"

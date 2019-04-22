@@ -1,4 +1,4 @@
-package com.yousef.khedmatazma.safebodatest.view;
+package com.yousef.airport.airport_java_mvp.view;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,11 +8,13 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
+
+import com.yousef.airport.airport_java_mvp.model.LuftSchedulesPOJO;
+import com.yousef.airport.airport_java_mvp.network.Events;
 import com.yousef.khedmatazma.safebodatest.R;
-import com.yousef.khedmatazma.safebodatest.model.LuftSchedulesPOJO;
-import com.yousef.khedmatazma.safebodatest.utils.Const;
-import com.yousef.khedmatazma.safebodatest.utils.TinyDB;
-import com.yousef.khedmatazma.safebodatest.utils.Utils;
+import com.yousef.airport.airport_java_mvp.utils.Const;
+import com.yousef.airport.airport_java_mvp.utils.TinyDB;
+import com.yousef.airport.airport_java_mvp.utils.Utils;
 import com.yousef.khedmatazma.safebodatest.network.*;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -22,8 +24,8 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import static com.yousef.khedmatazma.safebodatest.utils.Const.DESTINATION;
-import static com.yousef.khedmatazma.safebodatest.utils.Const.ORIGIN;
+import static com.yousef.airport.airport_java_mvp.utils.Const.DESTINATION;
+import static com.yousef.airport.airport_java_mvp.utils.Const.ORIGIN;
 
 public class SchedulesActivity extends AppCompatActivity {
 

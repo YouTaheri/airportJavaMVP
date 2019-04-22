@@ -1,10 +1,11 @@
-package com.yousef.khedmatazma.safebodatest.network;
+package com.yousef.airport.airport_java_mvp.network;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
+
+import com.yousef.airport.airport_java_mvp.utils.CustomProgressDialog;
 import com.yousef.khedmatazma.safebodatest.R;
-import com.yousef.khedmatazma.safebodatest.utils.CustomProgressDialog;
-import com.yousef.khedmatazma.safebodatest.utils.Utils;
+import com.yousef.airport.airport_java_mvp.utils.Utils;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

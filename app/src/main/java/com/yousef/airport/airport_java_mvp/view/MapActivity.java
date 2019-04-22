@@ -1,4 +1,4 @@
-package com.yousef.khedmatazma.safebodatest.view;
+package com.yousef.airport.airport_java_mvp.view;
 
 import android.annotation.SuppressLint;
 import android.support.v4.app.FragmentActivity;
@@ -21,10 +21,11 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PatternItem;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.yousef.airport.airport_java_mvp.network.Events;
 import com.yousef.khedmatazma.safebodatest.R;
-import com.yousef.khedmatazma.safebodatest.utils.Const;
-import com.yousef.khedmatazma.safebodatest.utils.TinyDB;
-import com.yousef.khedmatazma.safebodatest.utils.Utils;
+import com.yousef.airport.airport_java_mvp.utils.Const;
+import com.yousef.airport.airport_java_mvp.utils.TinyDB;
+import com.yousef.airport.airport_java_mvp.utils.Utils;
 import com.yousef.khedmatazma.safebodatest.network.*;
 
 import org.greenrobot.eventbus.EventBus;
@@ -37,8 +38,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.yousef.khedmatazma.safebodatest.utils.Const.DESTINATION;
-import static com.yousef.khedmatazma.safebodatest.utils.Const.ORIGIN;
+import static com.yousef.airport.airport_java_mvp.utils.Const.DESTINATION;
+import static com.yousef.airport.airport_java_mvp.utils.Const.ORIGIN;
 
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 

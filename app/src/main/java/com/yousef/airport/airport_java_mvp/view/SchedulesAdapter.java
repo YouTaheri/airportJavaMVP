@@ -1,4 +1,4 @@
-package com.yousef.khedmatazma.safebodatest.view;
+package com.yousef.airport.airport_java_mvp.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,8 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.yousef.khedmatazma.safebodatest.R;
-import com.yousef.khedmatazma.safebodatest.model.LuftSchedulesPOJO;
-import com.yousef.khedmatazma.safebodatest.utils.Utils;
+import com.yousef.airport.airport_java_mvp.model.LuftSchedulesPOJO;
+import com.yousef.airport.airport_java_mvp.utils.Utils;
 import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;

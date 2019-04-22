@@ -1,4 +1,4 @@
-package com.yousef.khedmatazma.safebodatest.utils;
+package com.yousef.airport.airport_java_mvp.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -7,8 +7,10 @@ import android.content.DialogInterface;
 import android.net.ConnectivityManager;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
+
+import com.yousef.airport.airport_java_mvp.network.APIs;
 import com.yousef.khedmatazma.safebodatest.R;
-import com.yousef.khedmatazma.safebodatest.network.APIs;
+
 import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

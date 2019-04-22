@@ -1,11 +1,12 @@
-package com.yousef.khedmatazma.safebodatest.network;
+package com.yousef.airport.airport_java_mvp.network;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import com.yousef.khedmatazma.safebodatest.model.AirportLatLongPOJO;
-import com.yousef.khedmatazma.safebodatest.model.AirportsPOJO;
-import com.yousef.khedmatazma.safebodatest.model.LuftSchedulesPOJO;
-import com.yousef.khedmatazma.safebodatest.model.TokenPOJO;
+
+import com.yousef.airport.airport_java_mvp.model.AirportLatLongPOJO;
+import com.yousef.airport.airport_java_mvp.model.AirportsPOJO;
+import com.yousef.airport.airport_java_mvp.model.LuftSchedulesPOJO;
+import com.yousef.airport.airport_java_mvp.model.TokenPOJO;
 
 import org.greenrobot.eventbus.EventBus;
 import retrofit2.Call;

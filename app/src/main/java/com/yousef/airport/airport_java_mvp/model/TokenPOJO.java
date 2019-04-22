@@ -1,8 +1,6 @@
-package com.yousef.khedmatazma.safebodatest.model;
+package com.yousef.airport.airport_java_mvp.model;
 
 import com.google.gson.annotations.SerializedName;
-
-import java.util.List;
 
 public class TokenPOJO {
     @SerializedName("access_token")

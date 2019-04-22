@@ -1,4 +1,4 @@
-package com.yousef.khedmatazma.safebodatest.view;
+package com.yousef.airport.airport_java_mvp.view;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -12,10 +12,12 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.yousef.airport.airport_java_mvp.network.Events;
 import com.yousef.khedmatazma.safebodatest.R;
-import com.yousef.khedmatazma.safebodatest.model.AirportsPOJO;
-import com.yousef.khedmatazma.safebodatest.utils.Const;
-import com.yousef.khedmatazma.safebodatest.utils.Utils;
+import com.yousef.airport.airport_java_mvp.model.AirportsPOJO;
+import com.yousef.airport.airport_java_mvp.utils.Const;
+import com.yousef.airport.airport_java_mvp.utils.Utils;
 import com.yousef.khedmatazma.safebodatest.network.*;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

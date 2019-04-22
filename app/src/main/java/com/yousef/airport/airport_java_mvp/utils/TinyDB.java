@@ -1,4 +1,4 @@
-package com.yousef.khedmatazma.safebodatest.utils;
+package com.yousef.airport.airport_java_mvp.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

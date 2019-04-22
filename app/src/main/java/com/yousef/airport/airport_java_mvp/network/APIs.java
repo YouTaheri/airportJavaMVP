@@ -1,13 +1,12 @@
-package com.yousef.khedmatazma.safebodatest.network;
+package com.yousef.airport.airport_java_mvp.network;
 
-import com.yousef.khedmatazma.safebodatest.model.AirportLatLongPOJO;
-import com.yousef.khedmatazma.safebodatest.model.AirportsPOJO;
-import com.yousef.khedmatazma.safebodatest.model.LuftSchedulesPOJO;
-import com.yousef.khedmatazma.safebodatest.model.TokenPOJO;
+import com.yousef.airport.airport_java_mvp.model.AirportLatLongPOJO;
+import com.yousef.airport.airport_java_mvp.model.AirportsPOJO;
+import com.yousef.airport.airport_java_mvp.model.LuftSchedulesPOJO;
+import com.yousef.airport.airport_java_mvp.model.TokenPOJO;
 
 import java.util.HashMap;
 
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;

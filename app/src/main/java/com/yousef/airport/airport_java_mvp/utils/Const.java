@@ -1,10 +1,11 @@
-package com.yousef.khedmatazma.safebodatest.utils;
+package com.yousef.airport.airport_java_mvp.utils;
 
 import android.content.Context;
-import com.yousef.khedmatazma.safebodatest.model.AirportLatLongPOJO;
-import com.yousef.khedmatazma.safebodatest.model.AirportsPOJO;
-import com.yousef.khedmatazma.safebodatest.model.LuftSchedulesPOJO;
-import com.yousef.khedmatazma.safebodatest.model.TokenPOJO;
+
+import com.yousef.airport.airport_java_mvp.model.AirportsPOJO;
+import com.yousef.airport.airport_java_mvp.model.LuftSchedulesPOJO;
+import com.yousef.airport.airport_java_mvp.model.TokenPOJO;
+import com.yousef.airport.airport_java_mvp.model.AirportLatLongPOJO;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
