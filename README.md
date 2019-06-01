@@ -1,9 +1,10 @@
-<H2> Flight Schedule </H2>
+<H1> Flight Schedule </H1>
 
-<B>(MVP / Dagger / RxJava)</B>
+<B>(Using: MVP / Dagger / RxJava)</B>
+<br>
 
 This Android app gets list of airline schedules and display their origin and destination airports on a map.
-
+<br>
 This project implements an Android app with the following features:
 
  ●	Give option to the user to select the origin and destination airport
