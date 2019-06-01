@@ -1,4 +1,5 @@
-<H1> Flight Schedule </H1>
+<p>
+ <H1> Flight Schedule </H1>
 
 <B>(Using: MVP / Dagger / RxJava)</B>
 <br />
@@ -18,3 +19,5 @@ This project implements an Android app with the following features:
  ●	And connect them with a polyline
  
  <img src="Screenshots/Screenshot_1.png" width="200"> <img src="Screenshots/Screenshot_2.png" width="200"> <img src="Screenshots/Screenshot_3.png" width="200"> <img src="Screenshots/Screenshot_4.png" width="200">
+ 
+ </p>
