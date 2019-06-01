@@ -1,6 +1,6 @@
-<H3> Flight Schedule </H3>
+<H2> Flight Schedule </H2>
 
-(MVP / Dagger / RxJava)
+<B>(MVP / Dagger / RxJava)</B>
 
 This Android app gets list of airline schedules and display their origin and destination airports on a map.
 
