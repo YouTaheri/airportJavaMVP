@@ -16,7 +16,7 @@ This project implements an Android app with the following features:
  
  ●	And connect them with a polyline
  
- <img src="Screenshots/Screenshot_1.png" width="20" hight="100"
- <img src="Screenshots/Screenshot_2.png" width="20" hight="100"
- <img src="Screenshots/Screenshot_3.png" width="20" hight="100"
- <img src="Screenshots/Screenshot_4.png" width="20" hight="100
+ <img src="Screenshots/Screenshot_1.png" width="20" height="100">
+ <img src="Screenshots/Screenshot_2.png" width="20" height="100">
+ <img src="Screenshots/Screenshot_3.png" width="20" height="100">
+ <img src="Screenshots/Screenshot_4.png" width="20" height="100>
