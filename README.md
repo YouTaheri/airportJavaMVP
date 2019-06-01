@@ -15,3 +15,8 @@ This project implements an Android app with the following features:
  ●	Show the origin and destination of the flight on a map upon selection of a schedule
  
  ●	And connect them with a polyline
+ 
+ ![](Screenshots/Screenshot_1)
+ ![](Screenshots/Screenshot_2)
+ ![](Screenshots/Screenshot_3)
+ ![](Screenshots/Screenshot_4)
