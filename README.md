@@ -16,7 +16,7 @@ This project implements an Android app with the following features:
  
  ●	And connect them with a polyline
  
- ![](Screenshots/Screenshot_1)
- ![](Screenshots/Screenshot_2)
- ![](Screenshots/Screenshot_3)
- ![](Screenshots/Screenshot_4)
+ ![](Screenshots/Screenshot_1.png)
+ ![](Screenshots/Screenshot_2.png)
+ ![](Screenshots/Screenshot_3.png)
+ ![](Screenshots/Screenshot_4.png)
