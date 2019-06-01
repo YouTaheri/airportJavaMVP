@@ -1,11 +1,13 @@
-<p>
- <H1> Flight Schedule </H1>
 
-<B>(Using: MVP / Dagger / RxJava)</B><br />
+<H1> Flight Schedule </H1>
 
-This Android app gets list of airline schedules and display their origin and destination airports on a map.<br />
+<B>(Using: MVP / Dagger / RxJava)</B>
 
-This project implements an Android app with the following features:
+This Android app gets list of airline schedules and display their origin and destination airports on a map.
+
+
+
+<B>This project implements an Android app with the following features:</B>
 
  ●	Give option to the user to select the origin and destination airport
  
